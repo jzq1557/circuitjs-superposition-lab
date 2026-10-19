@@ -1,0 +1,19 @@
+# Windows / Office 临时文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.bak
+
+# LibreOffice / Word 锁文件
+.~lock.*
+*.crdownload
+
+# 自己导出 PDF 时的中间产物
+*.pdf
+!docs/*.pdf
+
+# 编辑器
+.vscode/
+.idea/
